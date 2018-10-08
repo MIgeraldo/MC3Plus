@@ -25,7 +25,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="MASUK">
                                             <attributes>
-                                                <font key="NSFont" size="20" name=".SFNSDisplay"/>
+                                                <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                                 <font key="NSOriginalFont" size="20" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -33,20 +33,6 @@
                                     </attributedString>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-8Y-rZw">
-                                <rect key="frame" x="76" y="44" width="223" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="PooPee Box">
-                                        <attributes>
-                                            <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="40" name="KeepCalm-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="znZ-y7-oZG">
                                 <rect key="frame" x="220" y="689" width="139" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -55,13 +41,28 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="DAFTAR">
                                             <attributes>
-                                                <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-8Y-rZw">
+                                <rect key="frame" x="76" y="44" width="222" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="PooPee Box">
+                                        <attributes>
+                                            <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="34" name="KeepCalm-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,28 +87,29 @@
                                     <fragment content="PooPee Box">
                                         <attributes>
                                             <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="40" name="KeepCalm-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <font key="NSFont" size="30" name="KeepCalm-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQF-h8-6EV">
-                                <rect key="frame" x="42" y="157" width="92" height="24"/>
+                                <rect key="frame" x="42" y="157" width="141" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Username">
+                                    <fragment content="Nama Pengguna">
                                         <attributes>
                                             <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsL-YM-diO">
-                                <rect key="frame" x="44" y="241" width="52" height="24"/>
+                                <rect key="frame" x="44" y="241" width="118" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Sandi">
@@ -132,19 +134,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dX-Zv-4vZ">
-                                <rect key="frame" x="145" y="694" width="85" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Lupa Sandi?">
-                                            <attributes>
-                                                <font key="NSFont" size="15" name="KeepCalm-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V51-3r-UGA">
                                 <rect key="frame" x="116" y="363" width="139" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -153,9 +142,22 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="MASUK">
                                             <attributes>
-                                                <font key="NSFont" size="20" name=".SFNSDisplay"/>
+                                                <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                                 <font key="NSOriginalFont" size="20" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dX-Zv-4vZ">
+                                <rect key="frame" x="121" y="693" width="132" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Lupa Sandi?">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="KeepCalm-Medium"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -168,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbO-4K-DJH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1209" y="-310"/>
+            <point key="canvasLocation" x="1208.8" y="-310.34482758620692"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cOk-OW-7wW">
@@ -185,7 +187,7 @@
                                     <fragment content="Pendaftaran">
                                         <attributes>
                                             <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="40" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="34" name="KeepCalm-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -198,7 +200,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Nama Pengguna">
                                         <attributes>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -217,7 +219,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Email">
                                         <attributes>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -236,7 +238,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Sandi">
                                         <attributes>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -255,7 +257,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Ketik Ulang Sandi">
                                         <attributes>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -301,7 +303,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMB-bV-MSz">
-                                <rect key="frame" x="76" y="44" width="223" height="47"/>
+                                <rect key="frame" x="76" y="44" width="253" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="PooPee Box">
@@ -323,13 +325,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaP-ST-eHD">
-                                <rect key="frame" x="127" y="204" width="183" height="21"/>
+                                <rect key="frame" x="127" y="204" width="183" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Status Kotoran:">
                                         <attributes>
                                             <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                             <font key="NSOriginalFont" size="20" name="KeepCalm-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -350,7 +352,7 @@
                                     <fragment content="Jadwal Selanjutnya:">
                                         <attributes>
                                             <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -383,13 +385,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZB1-O3-pum">
-                                <rect key="frame" x="126" y="461" width="232" height="26"/>
+                                <rect key="frame" x="126" y="461" width="241" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Kapasitas Pembuangan:">
                                         <attributes>
                                             <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -430,7 +432,7 @@
                                     <fragment content="PooPee Box">
                                         <attributes>
                                             <color key="NSColor" red="0.28380090000000002" green="0.69788289069999998" blue="0.88630563019999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="40" name="KeepCalm-Medium"/>
+                                            <font key="NSFont" size="34" name="KeepCalm-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -445,7 +447,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZD1-YX-pli">
-                                <rect key="frame" x="45" y="157" width="145" height="24"/>
+                                <rect key="frame" x="45" y="157" width="165" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Masukkan email">
@@ -464,7 +466,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="SELANJUTNYA">
                                             <attributes>
-                                                <font key="NSFont" size="20" name="KeepCalm-Medium"/>
+                                                <font key="NSFont" size="17" name="KeepCalm-Medium"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
