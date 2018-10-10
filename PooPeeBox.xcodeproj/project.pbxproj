@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9787184071EE66D1F7204911 /* Pods_PooPeeBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9046EC41410B3DB04E90213 /* Pods_PooPeeBox.framework */; };
 		D2B918DB2164A6F3002BAB91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B918DA2164A6F3002BAB91 /* AppDelegate.swift */; };
 		D2B918DD2164A6F3002BAB91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B918DC2164A6F3002BAB91 /* ViewController.swift */; };
 		D2B918E02164A6F3002BAB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B918DE2164A6F3002BAB91 /* Main.storyboard */; };
 		D2B918E32164A6F3002BAB91 /* PooPeeBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2B918E12164A6F3002BAB91 /* PooPeeBox.xcdatamodeld */; };
 		D2B918E52164A6F5002BAB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B918E42164A6F5002BAB91 /* Assets.xcassets */; };
 		D2B918E82164A6F5002BAB91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B918E62164A6F5002BAB91 /* LaunchScreen.storyboard */; };
+		F80F1DB7216C9E7C00213984 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F1DB6216C9E7C00213984 /* MainMenuViewController.swift */; };
+		F80F1DBA216CAC5900213984 /* publish-body.json in Resources */ = {isa = PBXBuildFile; fileRef = F80F1DB9216CAC5900213984 /* publish-body.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C02EEB60E1A98169A921B24 /* Pods-PooPeeBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PooPeeBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PooPeeBox/Pods-PooPeeBox.debug.xcconfig"; sourceTree = "<group>"; };
+		A9DE7693A4FBF74732E120B1 /* Pods-PooPeeBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PooPeeBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-PooPeeBox/Pods-PooPeeBox.release.xcconfig"; sourceTree = "<group>"; };
 		D2B918D72164A6F3002BAB91 /* PooPeeBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PooPeeBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B918DA2164A6F3002BAB91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2B918DC2164A6F3002BAB91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,10 @@
 		D2B918E42164A6F5002BAB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B918E72164A6F5002BAB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2B918E92164A6F5002BAB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9046EC41410B3DB04E90213 /* Pods_PooPeeBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PooPeeBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80F1DB6216C9E7C00213984 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		F80F1DB8216CA7C400213984 /* PooPeeBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PooPeeBox.entitlements; sourceTree = "<group>"; };
+		F80F1DB9216CAC5900213984 /* publish-body.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "publish-body.json"; sourceTree = "<group>"; };
 		F8FE0619216B427D000D5D84 /* KeepCalm-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KeepCalm-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -32,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9787184071EE66D1F7204911 /* Pods_PooPeeBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C529190A5465F629426CF1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C02EEB60E1A98169A921B24 /* Pods-PooPeeBox.debug.xcconfig */,
+				A9DE7693A4FBF74732E120B1 /* Pods-PooPeeBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E099ADDCBBBCBFB55757525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9046EC41410B3DB04E90213 /* Pods_PooPeeBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2B918CE2164A6F3002BAB91 = {
 			isa = PBXGroup;
 			children = (
 				D2B918D92164A6F3002BAB91 /* PooPeeBox */,
 				D2B918D82164A6F3002BAB91 /* Products */,
+				3C529190A5465F629426CF1A /* Pods */,
+				5E099ADDCBBBCBFB55757525 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,10 +86,13 @@
 		D2B918D92164A6F3002BAB91 /* PooPeeBox */ = {
 			isa = PBXGroup;
 			children = (
+				F80F1DB8216CA7C400213984 /* PooPeeBox.entitlements */,
+				F8FE061D216C9992000D5D84 /* Controllers */,
+				F8FE061C216C9988000D5D84 /* Views */,
+				F8FE061B216C9974000D5D84 /* Models */,
 				F8FE061A216B4282000D5D84 /* Fonts */,
 				D2B918DA2164A6F3002BAB91 /* AppDelegate.swift */,
-				D2B918DC2164A6F3002BAB91 /* ViewController.swift */,
-				D2B918DE2164A6F3002BAB91 /* Main.storyboard */,
+				F80F1DB9216CAC5900213984 /* publish-body.json */,
 				D2B918E42164A6F5002BAB91 /* Assets.xcassets */,
 				D2B918E62164A6F5002BAB91 /* LaunchScreen.storyboard */,
 				D2B918E92164A6F5002BAB91 /* Info.plist */,
@@ -77,6 +109,30 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		F8FE061B216C9974000D5D84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8FE061C216C9988000D5D84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2B918DE2164A6F3002BAB91 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8FE061D216C9992000D5D84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2B918DC2164A6F3002BAB91 /* ViewController.swift */,
+				F80F1DB6216C9E7C00213984 /* MainMenuViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B918EC2164A6F5002BAB91 /* Build configuration list for PBXNativeTarget "PooPeeBox" */;
 			buildPhases = (
+				8EFB884363E74022248CD3C9 /* [CP] Check Pods Manifest.lock */,
 				D2B918D32164A6F3002BAB91 /* Sources */,
 				D2B918D42164A6F3002BAB91 /* Frameworks */,
 				D2B918D52164A6F3002BAB91 /* Resources */,
+				904F918D681EED4AE07FDBE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +167,11 @@
 				TargetAttributes = {
 					D2B918D62164A6F3002BAB91 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,16 +201,57 @@
 				D2B918E82164A6F5002BAB91 /* LaunchScreen.storyboard in Resources */,
 				D2B918E52164A6F5002BAB91 /* Assets.xcassets in Resources */,
 				D2B918E02164A6F3002BAB91 /* Main.storyboard in Resources */,
+				F80F1DBA216CAC5900213984 /* publish-body.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EFB884363E74022248CD3C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PooPeeBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904F918D681EED4AE07FDBE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PooPeeBox/Pods-PooPeeBox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PushNotifications/PushNotifications.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PushNotifications.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PooPeeBox/Pods-PooPeeBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2B918D32164A6F3002BAB91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80F1DB7216C9E7C00213984 /* MainMenuViewController.swift in Sources */,
 				D2B918DD2164A6F3002BAB91 /* ViewController.swift in Sources */,
 				D2B918DB2164A6F3002BAB91 /* AppDelegate.swift in Sources */,
 				D2B918E32164A6F3002BAB91 /* PooPeeBox.xcdatamodeld in Sources */,
@@ -294,16 +398,18 @@
 		};
 		D2B918ED2164A6F5002BAB91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C02EEB60E1A98169A921B24 /* Pods-PooPeeBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PooPeeBox/PooPeeBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PHPZMA327B;
+				DEVELOPMENT_TEAM = 9TDAR667HU;
 				INFOPLIST_FILE = PooPeeBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.binus.PooPeeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = MC3plus.poopeebox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,16 +418,18 @@
 		};
 		D2B918EE2164A6F5002BAB91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DE7693A4FBF74732E120B1 /* Pods-PooPeeBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PooPeeBox/PooPeeBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PHPZMA327B;
+				DEVELOPMENT_TEAM = 9TDAR667HU;
 				INFOPLIST_FILE = PooPeeBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.binus.PooPeeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = MC3plus.poopeebox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

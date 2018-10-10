@@ -9,7 +9,12 @@
 import UIKit
 
 class MainMenuViewController: UIViewController {
-
+    func getDataFromServer(){
+        
+    }
+    
+    @IBAction func bersihkanTombol(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
